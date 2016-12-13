@@ -1,0 +1,6 @@
+train.txt
+test.txt
+labels.txt
+*.jpg
+*.png
+model.model
