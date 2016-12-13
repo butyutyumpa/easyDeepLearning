@@ -18,15 +18,15 @@ Webカメラからリアルタイムの認識
 
 学習に使用する画像を用意します．  
 それらをカテゴリに分けて，それぞれ別のディレクトリに入れてください．  
-例：tanaka-   suzuki-  kitamura-  
-          |         |          |  
-          t1.jpg    s1.jpg     k1.jpg  
-          t2.jpg    s2.jpg     k2.jpg  
-          t3.jpg    s3.jpg     k3.jpg  
-
+例：
+tanaka-  
+　　　|-t1.jpg, t2.jpg, t3.jpg  
+suzuki-  
+　　　|-s1.jpg, s2.jpg, s3.jpg  
 それをPictureディレクトリにぶちこんでください．
-例：Picture--------------------
-           |-tanaka  |-suzuki |-kitamura
+例：
+Picture--  
+　　　　|-tanaka, suzuki  
 
 終わったら次を実行
 
@@ -41,6 +41,7 @@ Webカメラからリアルタイムの認識
 
 これがちゃんと実行されれば下を実行して実際の学習を始めましょう．  
 -E 10 となっている部分を-E 100とかに変えればもっとたくさん学習できます．  
+
 `python train_imagenet.py -g 0 -E 10 train.txt test.txt`  
 
 完成したmodel.modelを使って，  
