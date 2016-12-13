@@ -87,7 +87,7 @@ testPictureを用意し，
 `$python check.py testPicture/`
 
 を実行すると，testPictureディレクトリ内の画像をまとめて認識してくれます．  
-これはサクッとディープラーニングくんのimenurokさんhttp://qiita.com/imenurok/items/fecc9ca8d96eb623aaefが作ってくださったものに近いのですが，  
+これはサクッとディープラーニングくんのimenurokさん( http://qiita.com/imenurok/items/fecc9ca8d96eb623aaef) が作ってくださったものに近いのですが，  
 imenurokさんのcheck.pyはカラー画像に対応していません．（実行はできますが，PILとOpenCVのnumpy配列の違いを意識していないので，認識率が超低くなります．）  
 
 以上です．  
