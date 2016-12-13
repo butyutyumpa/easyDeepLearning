@@ -23,7 +23,7 @@ tanaka-
 　　　|-t1.jpg, t2.jpg, t3.jpg  
 suzuki-  
 　　　|-s1.jpg, s2.jpg, s3.jpg  
-それをPictureディレクトリにぶちこんでください．
+それをPictureディレクトリにぶちこんでください．  
 例：
 Picture--  
 　　　　|-tanaka, suzuki  
