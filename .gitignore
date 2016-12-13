@@ -4,3 +4,5 @@ labels.txt
 *.jpg
 *.png
 model.model
+*.npy
+*.pyc
